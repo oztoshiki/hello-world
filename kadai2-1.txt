@@ -1,0 +1,14 @@
+signed char型:1バイト
+int型:4バイト
+short型:2バイト
+long型:4バイト
+long long型:8バイト
+_Bool型:1バイト
+unsigned char型:1バイト
+unsigned int型:4バイト
+unsigned short型:2バイト
+unsigned long型:4バイト
+unsigned long long型:8バイト
+float型:4バイト
+double型:8バイト
+long double型:12バイト
