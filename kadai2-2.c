@@ -7,8 +7,7 @@ int main(int argc,char **argv) {
 	S=pi*r*r;
 	printf("半径%dの円周の長さは%lf、面積の大きさは%lfです。\n",r,L,S);
 	printf("半径%dの円周の長さは%7lf、面積の大きさは%5lfです。\n",r,L,S);
-	printf("半径%dの円周の長さは%-7lf、面積の大きさは%-5lfです。\n",r,L,S);
+	printf("半径%dの円周の長さは%-7.5lf、面積の大きさは%-5.3lfです。\n",r,L,S);
 	printf("半径%dの円周の長さは%8.4lf、面積の大きさは%-8.4lfです。\n",r,L,S);
-	printf("半径%dの円周の長さは%3lf、面積の大きさは%-4lfです。\n",r,L,S);
 	return 0;
 }
