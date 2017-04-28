@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main(int argc,char **argv) {
   int a=10;
   return 0;
 }

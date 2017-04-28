@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main(int argc,char **argv) {
 	printf("signed char型:%zuバイト\n",sizeof(signed char));
 	printf("int型:%zuバイト\n",sizeof(int));
 	printf("short型:%zuバイト\n",sizeof(short));
