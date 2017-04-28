@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main(void) {
-	printf("signed charå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(signed char));
-	printf("intå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(int));
-	printf("shortå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(short));
-	printf("longå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(long));
-	printf("long longå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(long long));
-	printf("_Boolå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(_Bool));
-	printf("unsigned charå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(unsigned char));
-	printf("unsigned intå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(unsigned int));
-	printf("unsigned shortå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(unsigned short));
-	printf("unsigned longå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(unsigned long));
-	printf("unsigned long longå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(unsigned long long));
-	printf("floatå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(float));
-	printf("doubleå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(double));
-	printf("long doubleå‹ï¼š%zuãƒã‚¤ãƒˆ\n",sizeof(long double));
+	printf("signed charŒ^:%zuƒoƒCƒg\n",sizeof(signed char));
+	printf("intŒ^:%zuƒoƒCƒg\n",sizeof(int));
+	printf("shortŒ^:%zuƒoƒCƒg\n",sizeof(short));
+	printf("longŒ^:%zuƒoƒCƒg\n",sizeof(long));
+	printf("long longŒ^:%zuƒoƒCƒg\n",sizeof(long long));
+	printf("_BoolŒ^:%zuƒoƒCƒg\n",sizeof(_Bool));
+	printf("unsigned charŒ^:%zuƒoƒCƒg\n",sizeof(unsigned char));
+	printf("unsigned intŒ^:%zuƒoƒCƒg\n",sizeof(unsigned int));
+	printf("unsigned shortŒ^:%zuƒoƒCƒg\n",sizeof(unsigned short));
+	printf("unsigned longŒ^:%zuƒoƒCƒg\n",sizeof(unsigned long));
+	printf("unsigned long longŒ^:%zuƒoƒCƒg\n",sizeof(unsigned long long));
+	printf("floatŒ^:%zuƒoƒCƒg\n",sizeof(float));
+	printf("doubleŒ^:%zuƒoƒCƒg\n",sizeof(double));
+	printf("long doubleŒ^:%zuƒoƒCƒg\n",sizeof(long double));
 	return 0;
 }
