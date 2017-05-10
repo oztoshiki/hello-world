@@ -12,20 +12,25 @@ int main(int argc,char **argv) {
       strcpy(s,"pr");
     }
     strcpy(t,"program");
-    printf("%d\n",strcmp(s,t));
-    printf("%d\n",strcmp(t,s));
+    printf("s=\"%s\",t =\"%s\"の時:\n",s,t);
+    printf("strcmp(s,t)=%5d\n",strcmp(s,t));
+    printf("strcmp(t,s)=%5d\n",strcmp(t,s));
     strcpy(t,"pro");
-    printf("%d\n",strcmp(s,t));
-    printf("%d\n",strcmp(t,s));
+    printf("s=\"%s\",t=\"%s\"の時:\n",s,t);
+    printf("strcmp(s,t)=%5d\n",strcmp(s,t));
+    printf("strcmp(t,s)=%5d\n",strcmp(t,s));
     strcpy(t,"pro m");
-    printf("%d\n",strcmp(s,t));
-    printf("%d\n",strcmp(t,s));
-    strcpy(t,"programprogram");
-    printf("%d\n",strcmp(s,t));
-    printf("%d\n",strcmp(t,s));
+    printf("s=\"%s\",t=\"%s\"の時:\n",s,t);
+    printf("strcmp(s,t)=%5d\n",strcmp(s,t));
+    printf("strcmp(t,s)=%5d\n",strcmp(t,s));
+    strcpy(t,"pr");
+    printf("s=\"%s\",t=\"%s\"の時\n",s,t);
+    printf("strcmp(s,t)=%5d\n",strcmp(s,t));
+    printf("strcmp(t,s)=%5d\n",strcmp(t,s));
     strcpy(t,"problem");
-    printf("%d\n",strcmp(s,t));
-    printf("%d\n",strcmp(t,s));
+    printf("s=\"%s\",t=\"%s\"の時\n",s,t);
+    printf("strcmp(s,t)=%5d\n",strcmp(s,t));
+    printf("strcmp(t,s)=%5d\n",strcmp(t,s));
   }
   return 0;
 }

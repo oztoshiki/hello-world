@@ -1,0 +1,30 @@
+s="program",t ="program"の時:
+strcmp(s,t)=    0
+strcmp(t,s)=    0
+s="program",t="pro"の時:
+strcmp(s,t)=  103
+strcmp(t,s)= -103
+s="program",t="pro m"の時:
+strcmp(s,t)=   71
+strcmp(t,s)=  -71
+s="program",t="pr"の時
+strcmp(s,t)=  111
+strcmp(t,s)= -111
+s="program",t="problem"の時
+strcmp(s,t)=    5
+strcmp(t,s)=   -5
+s="pr",t ="program"の時:
+strcmp(s,t)= -111
+strcmp(t,s)=  111
+s="pr",t="pro"の時:
+strcmp(s,t)= -111
+strcmp(t,s)=  111
+s="pr",t="pro m"の時:
+strcmp(s,t)= -111
+strcmp(t,s)=  111
+s="pr",t="pr"の時
+strcmp(s,t)=    0
+strcmp(t,s)=    0
+s="pr",t="problem"の時
+strcmp(s,t)= -111
+strcmp(t,s)=  111
