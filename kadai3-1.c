@@ -11,7 +11,7 @@ int main(int argc,char **argv) {
     if(i==1){
       strcpy(s,"pr");
     }
-    strcpy(t,"program");
+    strcpy(t,"clang");
     printf("s=\"%s\",t =\"%s\"の時:\n",s,t);
     printf("strcmp(s,t)=%5d\n",strcmp(s,t));
     printf("strcmp(t,s)=%5d\n",strcmp(t,s));
@@ -23,12 +23,12 @@ int main(int argc,char **argv) {
     printf("s=\"%s\",t=\"%s\"の時:\n",s,t);
     printf("strcmp(s,t)=%5d\n",strcmp(s,t));
     printf("strcmp(t,s)=%5d\n",strcmp(t,s));
-    strcpy(t,"pr");
-    printf("s=\"%s\",t=\"%s\"の時\n",s,t);
+    strcpy(t,"gcc");
+    printf("s=\"%s\",t=\"%s\"の時:\n",s,t);
     printf("strcmp(s,t)=%5d\n",strcmp(s,t));
     printf("strcmp(t,s)=%5d\n",strcmp(t,s));
     strcpy(t,"problem");
-    printf("s=\"%s\",t=\"%s\"の時\n",s,t);
+    printf("s=\"%s\",t=\"%s\"の時:\n",s,t);
     printf("strcmp(s,t)=%5d\n",strcmp(s,t));
     printf("strcmp(t,s)=%5d\n",strcmp(t,s));
   }
