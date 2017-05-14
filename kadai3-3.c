@@ -6,7 +6,7 @@ int main(int argc,char **argv) {
   int a;
   double b;
   strcpy(s,"130");
-  strcpy(t,"*");
+  strcpy(t,"&");
   a=atoi(s);
   b=atof(t);
   printf("atoi(%s)=%d,atof(%s)=%f\n",s,a,t,b);
