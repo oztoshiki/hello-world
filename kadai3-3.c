@@ -4,7 +4,7 @@
 int main(int argc,char **argv) {
   char s[10],t[10];
   int a;
-  float b;
+  double b;
   strcpy(s,"130");
   strcpy(t,"1.56");
   a=atoi(s);
