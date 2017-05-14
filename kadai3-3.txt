@@ -1,1 +1,3 @@
+//環境:OS:Windows 10 Home,version:1607,インストーラ:Cygwin64,コンパイラ:gcc,version:5.4.0
+
 atoi(130)=130,atof(0.0342)=0.034200
