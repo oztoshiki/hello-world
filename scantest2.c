@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(int argc,char **argv) {
-  int a;
+  char s[50];
 
-  printf("数を入力してください.");
-  scanf("%d",a);
-  printf("入力された数は%dです.\n",a);
+  printf("名前を入力してください.\n");
+  scanf("%[^\n]",s);
+  printf("入力された名前は%sです.\n",s);
   return 0;
 }
