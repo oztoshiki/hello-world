@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(int argc,char **argv) {
-  int month,day,like,i=0;
+  int month,day,like;
   double ans;
   char s[10];
 
@@ -13,11 +13,11 @@ int main(int argc,char **argv) {
   fgets(s,sizeof(s),stdin);
   day=atoi(s);
 
-  printf("1~10の間で好きな数字を入力してください.\n");
+  printf("1~20の間で好きな数字を入力してください.\n");
   fgets(s,sizeof(s),stdin);
   like=atoi(s);
 
-  ans=(month+day+like)/53*100;
-  printf("あなたの真面目度は、%fです。",ans);
+  ans=(month+day+like)/63.0*100.0;
+  printf("あなたの真面目度は、%fです。\n",ans);
   return 0;
 }
