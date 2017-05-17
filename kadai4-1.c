@@ -18,6 +18,9 @@ int main(int argc,char **argv) {
   like=atoi(s);
 
   ans=(month+day+like)/63.0*100.0;
-  printf("あなたの真面目度は、%fです。\n",ans);
+  printf("//キャストあり//  あなたの真面目度は、%fです。\n",ans);
+
+  ans=(month+day+like)/63*100;
+  printf("//キャストなし//  あなたの真面目度は、%fです。\n",ans);
   return 0;
 }
